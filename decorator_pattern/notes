@@ -1,0 +1,5 @@
+Decorator Design Pattern
+
+This is an interesting design pattern, as it seems to be very bad practice. It overwrites the super class. This makes it seem as though it is not a good way to program as if you need to overwrite the superclasses methods every time then you really shouldn't have the method in the superclass. This breaks the L in SOLID. This means that all of the children are not replaceable with the superclass as they are all different.
+
+I cannot see the use of thei design pattern as you make the super class abstract so you can't new up any instances of it and insert the methods you would like to use. Then you make a sub-class of the super class and proceed to change the mehtods with overrides. Surely if you need to override then you should just have the methods only in the sub-classes and not the super class. 

@@ -1,0 +1,7 @@
+Factory Design Pattern
+
+In this design pattern the program will have a "factory" that will be in charge of creating objects. In the example that I have created the "factory" in this case, the Weapon Factory, is in charge of creating weapon objects. The weapon objects it creates are all part of the Weaponable interface, Spork, Meat Tenderiser and the Sick with a Rust Nail. 
+
+These objects will only be created if the string passed into the factory create method corrispond with the object that the user wants to create.
+
+This design pattern will mean that objects will only be made when they are needed and not just at launch. This will prevent the program having objects the user might not need. In the example I have made the Spork object will not be created if the user does not tell the factory to make one.
